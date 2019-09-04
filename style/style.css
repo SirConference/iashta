@@ -5,7 +5,7 @@ body{
 }
 
 .navbar{
-    background-color: black;
+    background-color: #242527;
     height: 55px;
 }
 
@@ -14,6 +14,15 @@ div.logo img{
 }
 .content{
     margin-top: 50px;
+}
+.bg{
+    z-index: -1;
+    position: absolute;
+    top: 55px;
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /** Quote block **/
@@ -79,4 +88,39 @@ p{
 
 #afterquote{
     margin-top: 15px;
+}
+
+/**  LIST  **/
+ul.carac{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 0;
+}
+
+ul.carac>li{
+    font-weight: bold;
+    margin-top:10px;
+    list-style-position: inside;
+}
+
+ul.inside-carac{
+    list-style: none;
+    font-weight: normal;
+    padding-left: 0px;
+}
+
+    /* Quote list */ 
+    ul.inside-quote{
+        list-style: georgian;
+        font-weight: normal;
+        padding-left: 0px;
+    }
+
+/* FOOTER */
+
+footer{
+    height: 120px;
+    background-color: #242527;
 }
