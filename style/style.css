@@ -2,8 +2,9 @@ body{
     background-image: url(../images/bg-partern.jpg);
     background-repeat: repeat;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100
 }
-
+html{scroll-behavior: smooth;}
 .navbar{
     background-color: #242527;
     height: 55px;
@@ -12,6 +13,12 @@ body{
 div.logo img{
     height: 50px;
 }
+
+#portrait{
+    height: ;
+}
+
+
 .content{
     margin-top: 50px;
 }
@@ -60,7 +67,7 @@ h1{
     font-size: 24px;
     color: #7a200d;
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 h2{
@@ -124,4 +131,48 @@ footer{
     height: 120px;
     background-color: #242527;
     margin-top: 50px;
+}
+
+/** SIDE MENU **/
+.sidemenu{
+    background-color: white;
+    position: absolute;
+    border: 1px solid rgb(203, 198, 195);
+    top: 105px;
+}
+.sidemenu>ul>li{
+    list-style: none;
+    position: relative;
+    display: block;
+}
+
+.sideMenuList{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 5 auto;
+    padding-right: 5px;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.sidemenu>ul>li>a{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.sideMenuList>ul>div{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.sidemenu>ul>li.first-el{
+    font-weight: 700;
+}
+
+.sidemenu>ul>li>a:hover{
+    color:#7a200d;
+}
+
+.sidemenu>ul>li:hover {
+    padding-left: 5px;
+    border-left:3px solid #7a200d;
 }
