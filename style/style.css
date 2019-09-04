@@ -1,0 +1,82 @@
+body{
+    background-image: url(../images/bg-partern.jpg);
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    height: 55px;
+}
+
+div.logo img{
+    height: 50px;
+}
+.content{
+    margin-top: 50px;
+}
+
+/** Quote block **/
+
+.quote{
+    background-color: white;
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-right: 1px solid rgb(224, 220, 220);
+    border-left: 1px solid rgb(224, 220, 220);
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-before{
+    background-image: url(../images/border_scroll_block_up.png);
+    background-size: cover;
+    height: 20px;
+    background-repeat: no-repeat;
+    border-right: 1px solid rgb(224, 220, 220);
+}
+
+.quote-after{
+    background-image: url(../images/border_scroll_block_down.png);
+    background-size: cover;
+    height: 20px;
+    background-repeat: no-repeat;
+    border-right: 1px solid rgb(224, 220, 220);
+}
+
+/** General text **/
+
+h1{
+    font-size: 24px;
+    color: #7a200d;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 20px;
+    color: #7a200d;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+h2::after{
+    content: '';
+    width: 100%;
+    margin: 5px auto 10px;
+    height: 1px;
+    background-color: #7a200d;
+    display: block;
+}
+
+p{
+    margin-top: 0;
+    font-size: 14px;
+    color: black;
+    line-height: 1.3em;
+}
+
+#afterquote{
+    margin-top: 15px;
+}
