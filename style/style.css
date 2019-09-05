@@ -38,7 +38,7 @@ div.logo img{
     padding-bottom: 2px;
     border-right: 1px solid rgb(224, 220, 220);
     border-left: 1px solid rgb(224, 220, 220);
-    font-size: 14px;
+    font-size: 11pt;
     font-style: italic;
     font-weight: lighter;
 }
@@ -61,15 +61,22 @@ div.logo img{
 /** General text **/
 
 h1{
-    font-size: 24px;
+    font-size: 18pt;
     font-family: 'Roboto', sans-serif;
     color: #7a200d;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
+.subtitle{
+    color: #7a1f0da4;
+    font-size: 15pt;
+    padding-left: 10px;
+    margin-top: -19px;
+}
+
 h2{
-    font-size: 20px;
+    font-size: 18pt;
     font-family: 'Roboto', sans-serif;
     color: #7a200d;
     font-weight: 600;
@@ -87,7 +94,7 @@ h2::after{
 
 p{
     margin-top: 0;
-    font-size: 14px;
+    font-size: 11pt;
     color: black;
     line-height: 1.3em;
 }
@@ -100,14 +107,14 @@ p{
 ul.carac{
     list-style: none;
     padding-left: 0px;
-    font-size: 14px;
+    font-size: 11pt;
     text-align: left;
     margin-left: 0;
 }
 
 ul.carac>li{
     font-weight: bold;
-    margin-top:10px;
+    margin-top:11pt;
     list-style-position: inside;
 }
 
